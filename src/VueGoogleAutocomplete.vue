@@ -130,6 +130,7 @@
                     // update autocompleteText then emit change event
                     this.autocompleteText = document.getElementById(this.id).value
                     this.onChange()
+		    this.clear()
                 }
            });
         },
